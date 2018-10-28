@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To Do Assignement</title>
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="fontawesome-free-5.4.2-web/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>          
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="teal">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo">To Do Application</a>
+                    <ul class="right hide-on-small" id="mobile-nav">
+                        <li> <a class="a_List" href="index.html">Create Todo</a> </li>
+                        <li> <a class="a_List" href="alltodos.html">To Do List</a> </li>
+                        <li> <a class="a_List" href="tasks.html">Check Tasks</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>   
+    <div class=" container">
+        <h2 class="center ">New Todo</h2>
+        <form action="" onsubmit="Submit()" id="edit">
+         <div class="input-field">
+                <i class="fas fa-pen prefix"></i>
+                <input type="text" id="title" required >
+                <label for="title">Title...</label>
+            </div>      
+            <div class="input-field">
+                <i class="fas fa-map-marker-alt prefix"></i>
+                <input type="text" id="location" required >
+                <label for="location">Location...</label>
+            </div>
+            <div class="input-field">
+               <i class="fas fa-info prefix"></i>
+               <input type="text" id="description" required >
+               <label for="description">Description...</label>
+            </div>
+        <div class="iput-field center">
+            <button class="btn-large waves-effect waves-dark" type="submit" >Submit To Add Todo</button>
+        </div>     
+        </form>
+    </div>
+    <script src="js/materialize.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/tasks.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>To Do Assignement</title>
+  <link rel="stylesheet" href="css/materialize.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="fontawesome-free-5.4.2-web/css/all.min.css">
+</head>  
+
+<body>  
+  <div class="navbar-fixed">
+    <nav class="teal">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo">To Do Application</a>
+          <ul class="right hide-on-med-and-down">
+            <li>    <a href="index.html">Create Todo</a>  </li>
+            <li>   <a href="alltodos.html">To Do List</a> </li>
+            <li>   <a href="tasks.html">Check Tasks</a>   </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+ 
+
+  <div id="hide">
+    <div class=" container">
+      <h2 class="center ">Completed Tasks</h2>
+      <ul class="collection" id="ul-2"></ul>
+      <div id="placeholder" class="cls1"></div>
+    </div>
+   
+    <div class="center">
+    <button class="btn-large waves-effect waves-dark  cls4" onclick="clearall();">Clear All History</button>
+    </div>
+    
+
+    <script src="js/materialize.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/tasks.js"></script>
+
+</body>
+</html>

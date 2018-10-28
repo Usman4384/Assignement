@@ -1,0 +1,55 @@
+h2{
+    color: rgba(15, 202, 93, 0.884) ;
+    font-size: 35px ;
+    font-weight: bold;
+    font-family:  sans-serif;
+}
+.brand-logo{ 
+    font-size: 30px !important;
+    font-weight: bold;
+}
+a{
+    font-size: 22px !important;
+    font-weight: bold;
+}
+
+li{
+    height: 60px;
+    font-size: 30px !important;
+    /* padding: 20px !important; */
+    font-size: bold;
+}
+i:hover{
+    color: blue !important;
+}
+i {
+    margin:0 15px !important;
+    font-size: 26px !important;
+   
+} 
+.cls1{
+    font-size: 20px;
+    text-align: center ;
+}
+.hide {
+    display: none !important;
+}
+
+.cls2{
+    background-color: blue !important;
+    width: 50% ;
+    height: 50px;
+     border: 1px solid blue;    
+} 
+.marg {
+    margin-right: 50px !important;
+}
+
+  .cls3 {
+      font-style: arial;
+  }
+
+  .cls4{
+      margin-top: 10px !important;
+  }
+  
